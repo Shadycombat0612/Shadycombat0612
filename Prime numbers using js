@@ -1,0 +1,21 @@
+function isprime(number)
+{
+    var flag=1;
+    for(var i=2; i<number; i++)
+    {
+        if(number%i==0)
+        {
+            flag=0;
+        }
+    }
+    if(flag==0)
+    {
+        console.log("not a prime number")
+    }
+    else{
+        console.log("prime number")
+    }
+}
+console.log(isprime(11))
+console.log(isprime(100))
+console.log(isprime(55))
