@@ -11,4 +11,6 @@ const seconds = currentDate.getSeconds();
 const format = `${day}-${month}-${year} ${hours}:${minutes}:${seconds}`
 console.log("day of the week is =  ", daysOfWeek[today]);
 console.log("current date and time =  ", format);
+const complete=currentDate.toLocaleTimeString();
+console.log("current date  =  ", complete);
 
