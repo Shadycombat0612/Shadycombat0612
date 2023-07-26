@@ -1,0 +1,10 @@
+function rectangle()
+{
+    let area=length*breadth;
+    let perimeter=2*(length+breadth);
+    console.log("area of rectangle is = ", area)
+    console.log("area of rectangle is = ", perimeter)
+}
+length=prompt("enter the length");
+breadth=prompt("enter the breadth");
+rectangle(parseInt(length),parseInt(breadth));
